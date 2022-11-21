@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20221121083443_Create.cs" />
+    <Compile Remove="Migrations\20221121083443_Create.Designer.cs" />
+    <Compile Remove="Migrations\20221121172146_CreateMealTable.cs" />
+    <Compile Remove="Migrations\20221121172146_CreateMealTable.Designer.cs" />
+    <Compile Remove="Migrations\20221121172252_CreateMealTable.cs" />
+    <Compile Remove="Migrations\20221121172252_CreateMealTable.Designer.cs" />
+    <Compile Remove="Migrations\20221121172926_CreateMealTable2.cs" />
+    <Compile Remove="Migrations\20221121172926_CreateMealTable2.Designer.cs" />
+    <Compile Remove="Migrations\20221121173326_CreateMealTable3.cs" />
+    <Compile Remove="Migrations\20221121173326_CreateMealTable3.Designer.cs" />
+    <Compile Remove="Migrations\20221121173552_CreateMealTable4.cs" />
+    <Compile Remove="Migrations\20221121173552_CreateMealTable4.Designer.cs" />
+    <Compile Remove="Migrations\20221121173716_CreateMeal.cs" />
+    <Compile Remove="Migrations\20221121173716_CreateMeal.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.31">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
